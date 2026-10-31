@@ -12,7 +12,7 @@ Thư mục `Draw Music Legal/` nằm trong project Draw Music nhưng có `.git` 
 
 ## Đóng gói
 
-Chạy `python3 sync_offline.py` từ thư mục này sau khi sửa nội dung. Script nhúng CSS và sao chép hai trang vào assets `privacy-local.html`, `terms-local.html`. Android tự đóng gói các assets vào APK/AAB. Settings → Privacy đang mở `privacy-local.html`; có thể mở Terms qua liên kết trong trang này. Không cần mạng để đọc hai tài liệu.
+Chạy `python3 sync_offline.py` từ thư mục này sau khi sửa nội dung. Script nhúng CSS và sao chép hai trang vào assets `privacy-local.html`, `terms-local.html`. Android tự đóng gói các assets vào APK/AAB. Settings có hai mục Privacy và Terms riêng: ưu tiên URL GitHub Pages, tự chuyển sang bản đóng gói nếu lỗi mạng, lỗi HTTP hoặc tải quá 5 giây. Internet chỉ dùng để tải trang pháp lý; nội dung sáng tác vẫn xử lý trên máy. Không cần mạng để đọc hai tài liệu.
 
 ## Phạm vi
 
